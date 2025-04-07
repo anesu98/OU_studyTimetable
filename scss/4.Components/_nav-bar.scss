@@ -1,0 +1,17 @@
+.nav-bar {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+
+    &__list {
+        border-width: 1px;
+        border-style: solid;
+        border-color: turquoise;
+    }
+
+    &__list-item {
+        border-width: 1px;
+        border-style: solid;
+        border-color: blue;
+    }
+}
