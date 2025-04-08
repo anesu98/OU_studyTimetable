@@ -1,0 +1,4 @@
+@mixin color-scheme($bg, $text) {
+ background-color: $bg;
+ color: $text;
+}
