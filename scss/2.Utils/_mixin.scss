@@ -4,3 +4,15 @@
     background-color: $bg;
     color: $text;
 }
+
+@mixin centralize() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin guide-line($color) {
+    border-width: 1px;
+    border-color: $color;
+    border-style: solid;
+}

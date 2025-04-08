@@ -1,0 +1,12 @@
+.main-body {
+    @include centralize();
+    @include guide-line(red);
+
+    width: 100%;
+    height: 30rem;
+    background-image: url(../../images/Background\ img\ 1.webp);
+    background-color: $secondary-color;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
