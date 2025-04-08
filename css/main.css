@@ -7,9 +7,6 @@ body {
 }
 
 .nav-bar {
-  border-width: 1px;
-  border-style: solid;
-  border-color: red;
   height: 7.5rem;
   width: 100%;
   display: -webkit-box;
@@ -28,9 +25,6 @@ body {
   width: auto;
 }
 .nav-bar__bottom-bar {
-  border-width: 1px;
-  border-style: solid;
-  border-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,9 +40,6 @@ body {
   color: white;
 }
 .nav-bar__list {
-  border-width: 1px;
-  border-style: solid;
-  border-color: turquoise;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,9 +54,7 @@ body {
   list-style: none;
 }
 .nav-bar__list-item {
-  border-width: 1px;
-  border-style: solid;
-  border-color: blue;
+  text-align: center;
 }
 .nav-bar__nav-link {
   text-decoration: none;

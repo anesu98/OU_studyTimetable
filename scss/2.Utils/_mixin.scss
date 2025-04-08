@@ -1,4 +1,6 @@
+@use 'sass:list';
+
 @mixin color-scheme($bg, $text) {
- background-color: $bg;
- color: $text;
+    background-color: $bg;
+    color: $text;
 }
