@@ -76,24 +76,65 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-width: 1px;
-  border-color: red;
-  border-style: solid;
   width: 100%;
   height: 30rem;
   background-image: url(https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9BtkzjA9rbUgV_1_8ptt8g.jpeg);
   background-color: #403f3f;
-  background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
 }
 .main-body__section {
-  border-width: 1px;
-  border-color: yellow;
-  border-style: solid;
   background-color: #eed202;
   color: #080700;
-  height: 10rem;
-  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 12rem;
+  width: 60%;
   border-radius: 0.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0.95;
+}
+.main-body__section-icon {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.main-body__section-text-1 {
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.main-body__section-text-2 {
+  margin-top: 0.3rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-align: center;
+}
+.main-body__section-text-2-link {
+  color: inherit;
+}
+.main-body__section-text-2-link:hover {
+  color: #fff8ca;
+}
+
+.fa-triangle-exclamation {
+  font-size: 2rem;
 }
