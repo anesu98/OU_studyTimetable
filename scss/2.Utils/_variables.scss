@@ -3,9 +3,13 @@ $secondary-color: #403f3f;
 $accent-colour: #f2b60f;
 $primary-font-color: black;
 $secondary-font-color: white;
+$warning-background-color: #eed202;
+$warning-font-color: #080700;
+
 
 $scheme-default: $primary-color, $primary-font-color;
 $scheme-secondary: $secondary-color, $secondary-font-color;
+$scheme-warning: $warning-background-color, $warning-font-color;
 
 $font-weight: 100 200 300 400 500 600 700 800 900;
 $font-size: 0.5rem 0.75rem 1rem 1.25rem 1.5rem 1.75rem 2rem 2.25rem;

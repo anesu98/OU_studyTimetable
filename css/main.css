@@ -81,9 +81,19 @@ body {
   border-style: solid;
   width: 100%;
   height: 30rem;
-  background-image: url(../../images/Background_img_1.webp);
+  background-image: url(https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9BtkzjA9rbUgV_1_8ptt8g.jpeg);
   background-color: #403f3f;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
+}
+.main-body__section {
+  border-width: 1px;
+  border-color: yellow;
+  border-style: solid;
+  background-color: #eed202;
+  color: #080700;
+  height: 10rem;
+  width: 40%;
+  border-radius: 0.5rem;
 }
