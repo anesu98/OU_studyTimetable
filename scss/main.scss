@@ -2,6 +2,9 @@
 @import './2.Utils/normalize';
 @import './2.Utils/mixin';
 
-@import './4.Components/nav-bar';
-@import './4.Components/main-body';
+@import './3.Layout/main-body';
+@import './3.Layout/nav-bar';
+@import './3.Layout/planner-tiles';
+@import './3.Layout/footer';
 
+@import './4.Components/tiles';

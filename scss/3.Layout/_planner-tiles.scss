@@ -1,0 +1,9 @@
+.planner-tiles {
+    @include centralize();
+    @include lighten($scheme-secondary-color-light ...);
+
+    height: 60rem;
+    width: 100%;
+    flex-direction: column;
+    
+}

@@ -16,3 +16,13 @@
     border-color: $color;
     border-style: solid;
 }
+
+@mixin lighten($color, $perc) {
+    background-color: lighten($color, $perc);
+    color: $secondary-font-color;
+}
+
+@mixin darken($colour, $perc) {
+    background-color: darken($colour, $perc);
+    color: $primary-font-color;
+}
