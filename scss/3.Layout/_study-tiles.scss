@@ -1,0 +1,11 @@
+.study {
+    @include centralize();
+    @include lighten($scheme-secondary-color-light ...);
+
+    height: fit-content;
+    min-height: 10rem;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding: 1.5rem 0 1.5rem 0;
+}
