@@ -277,7 +277,7 @@ body {
   height: 16rem;
   margin: 0;
   padding: 0;
-  background-image: url(../../images/manday-image.jpg);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0c/ENIAC-changing_a_tube_%28cropped%29.jpg);
   background-size: 100% auto;
   background-position: center;
   -webkit-box-shadow: 1px 4px 10px 1px #403f3f;
@@ -505,7 +505,7 @@ body {
 .study-tile__time-container {
   background-color: #403f3f;
   color: white;
-  background-image: url(../../images/tuesday_image.png);
+  background-image: url(https://bellwether.org/wp-content/uploads/2024/09/Web-Cover-Image-19-1280x811.png);
   background-size: 150% auto;
   background-position: center;
   border-left: 0;
